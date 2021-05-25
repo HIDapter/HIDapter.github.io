@@ -1,0 +1,5 @@
+collections_dir: collections
+
+collections:
+  controllers:
+    output: true
