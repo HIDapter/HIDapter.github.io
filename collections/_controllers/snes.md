@@ -6,8 +6,7 @@ connector:
   - pins: 7
 ---
 
-# SNES
-{{ page.name }}
+# {{ page.name }}
 {{ page.connector }}
 
 ## Connector
