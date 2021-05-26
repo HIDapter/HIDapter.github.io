@@ -1,5 +1,7 @@
 ---
+title: Connectors
 has_children: true
+has_toc: false
 ---
 # Connectors
 

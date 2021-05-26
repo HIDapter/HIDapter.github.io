@@ -14,9 +14,9 @@ defaults:
     values:
       layout: default
       parent: Connectors
+      pins: TODO
       width: TODO
       height: TODO
-      pins: TODO
   - scope:
       path: "/collections/_protocols/*"
     values:
