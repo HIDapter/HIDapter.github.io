@@ -6,4 +6,4 @@ collections:
   protocols:
     output: true
 
-theme: jekyll-theme-minimal
+remote_theme: pmarsceill/just-the-docs
