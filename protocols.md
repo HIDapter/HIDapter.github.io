@@ -6,12 +6,12 @@
         <th>Connector</th>
         <th>Voltage</th>
     </tr>
-{% for protocol in site.protocols %}
+    {% for protocol in site.protocols %}
     <tr>
         <td><a href="{{ protocol.url }}">{{ protocol.name }}</a></td>
-        {% assign connector = site.connectors[protocol.connector] %}
+        {% assign connector = site.collections.connectors[protocol.connector] %}
         <td><a href="{{ connector.url }}">{{ protocol.connector }} - {{ connector }} - {{ connector.name }}</a></td>
         <td>{{ protocol.voltage }}</td>
     </tr>
-{% endfor %}
+    {% endfor %}
 </table>
