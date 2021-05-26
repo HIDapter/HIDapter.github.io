@@ -5,3 +5,5 @@ collections:
     output: true
   protocols:
     output: true
+
+theme: jekyll-theme-minimal
