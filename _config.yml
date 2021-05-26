@@ -10,10 +10,20 @@ remote_theme: pmarsceill/just-the-docs
 
 defaults:
   - scope:
-      path: "_connectors"
+      path: "/collections/_connectors/*"
     values:
       layout: default
-      
+      parent: Connectors
+      width: TODO
+      height: TODO
+      pins: TODO
+  - scope:
+      path: "/collections/_protocols/*"
+    values:
+      layout: default
+      parent: Protocols
+      connector: TODO
+      voltage: TODO
 
 just_the_docs:
   collections:

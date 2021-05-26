@@ -21,5 +21,5 @@ voltage: 5V
 ## Protocol
 
 ## Reference
-- http://www.repairfaq.org/REPAIR/F_SNES.html
-- https://github.com/rafalgrodzinski/gamepad-adapter
+- [http://www.repairfaq.org/REPAIR/F_SNES.html]()
+- [https://github.com/rafalgrodzinski/gamepad-adapter]()

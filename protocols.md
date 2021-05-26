@@ -11,9 +11,9 @@ has_children: true
     </tr>
     {% for protocol in site.protocols %}
     <tr>
-        <td><a href="{{ protocol.url }}">{{ protocol.name }}</a></td>
+        <td><a href="{{ protocol.url }}">{{ protocol.title }}</a></td>
         {% assign connector = site.collections.connectors[protocol.connector] %}
-        <td><a href="{{ connector.url }}">{{ protocol.connector }} - {{ connector }} - {{ connector.name }}</a></td>
+        <td><a href="{{ connector.url }}">{{ protocol.connector }} - {{ connector }} - {{ connector.title }}</a></td>
         <td>{{ protocol.voltage }}</td>
     </tr>
     {% endfor %}

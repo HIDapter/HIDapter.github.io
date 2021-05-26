@@ -1,11 +1,8 @@
 ---
-name: NES
-width: TODO
-height: TODO
-pins: TODO
+title: NES
 ---
 
-# {{ page.name }}
+# {{ page.title }}
 
 ## Description
 

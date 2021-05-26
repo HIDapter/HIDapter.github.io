@@ -1,3 +1,6 @@
+---
+has_children: true
+---
 # Connectors
 
 <table>
@@ -16,7 +19,7 @@
         <td>{{ connector.height }}</td>
         <td>
             <ul>
-                {{% assign protocols = site.collections.protocols | where_exp:"protocol", "protocol.connector == connector.name" %}}
+                {{% assign protocols = site.collections.protocols | where_exp:"protocol", "protocol.connector == connector.title" %}}
                 {% for protocol in protocols %}
                 <li><a href="{{ protocol.url }}">{{ protocol.title }}</a></li>
                 {% endfor %}

@@ -1,11 +1,9 @@
 ---
-name: Nintendo Gamecube
-width: TODO
-height: TODO
+title: Nintendo Gamecube
 pins: 7
 ---
 
-# {{ page.name }}
+# {{ page.title }}
 
 ## Description
 

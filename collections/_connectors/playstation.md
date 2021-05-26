@@ -1,11 +1,9 @@
 ---
-name: Playstation
-width: TODO
-height: TODO
+title: Playstation
 pins: 9
 ---
 
-# {{ page.name }}
+# {{ page.title }}
 
 ## Description
 

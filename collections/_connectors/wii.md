@@ -1,11 +1,9 @@
 ---
-name: Wii
-width: TODO
-height: TODO
+title: Wii
 pins: 6
 ---
 
-# {{ page.name }}
+# {{ page.title }}
 
 ## Description
 

@@ -1,11 +1,9 @@
 ---
-name: DB9
-width: TODO
-height: TODO
+title: DB9
 pins: 9
 ---
 
-# {{ page.name }}
+# {{ page.title }}
 
 ## Description
 

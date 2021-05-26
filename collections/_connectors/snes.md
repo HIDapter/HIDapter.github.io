@@ -1,11 +1,9 @@
 ---
-name: SNES
-width: TODO
-height: TODO
+title: SNES
 pins: 7
 ---
 
-# {{ page.name }}
+# {{ page.title }}
 
 ## Description
 
