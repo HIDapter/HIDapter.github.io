@@ -13,3 +13,10 @@ defaults:
       path: ""
     values:
       layout: default
+
+just_the_docs:
+  collections:
+    connectors:
+      name: Connectors
+    protocols:
+      name: Protocols
