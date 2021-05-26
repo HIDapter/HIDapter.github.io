@@ -1,4 +1,4 @@
-# Controllers
+# Protocols
 
 <table>
     <tr>
@@ -10,7 +10,7 @@
     <tr>
         <td><a href="{{ protocol.url }}">{{ protocol.name }}</a></td>
         {% assign connector = site.connectors[protocol.connector] %}
-        <td><a href="{{ connector.url }}">{{ connector.name }}</td>
+        <td><a href="{{ connector.url }}">{{ protocol.connector }} - {{ connector }} - {{ connector.name }}</a></td>
         <td>{{ protocol.voltage }}</td>
     </tr>
 {% endfor %}

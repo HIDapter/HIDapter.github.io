@@ -7,13 +7,13 @@
         <th>Size</th>
         <th>Used by</th>
     </tr>
-{% for controller in site.controllers %}
+{% for connector in site.connectors %}
     <tr>
-        <td><a href="{{ controller.url }}">{{ controller.name }}</a></td>
-        <td>{{ controller.connector.pins }}</td>
-        <td>{{ controller.connector.width }} x {{ controller.connector.height }}</td>
+        <td><a href="{{ controller.url }}">{{ connector.name }}</a></td>
+        <td>{{ connector.pins }}</td>
+        <td>{{ connector.width }} x {{ connector.height }}</td>
         <td></td>
-        <!-- <p>{{ controller.content | markdownify }}</p> -->
+        <!-- <p>{{ connector.content | markdownify }}</p> -->
     </tr>
 {% endfor %}
 </table>
