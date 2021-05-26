@@ -5,6 +5,6 @@ connectors: {{ site.connectors.url }}
 
 protocols: {{ site.protocols.url }}
 
-site.connectors: {{ site.connectors }}
+site.connectors: {{% site.connectors %}}
 
-site.data.connectors: {{ site.data.connectors }}
+site.collections.connectors: {{ site.collections.connectors }}
