@@ -25,9 +25,9 @@ defaults:
       connector: TODO
       voltage: TODO
 
-just_the_docs:
-  collections:
-    connectors:
-      name: Connectors
-    protocols:
-      name: Protocols
+# just_the_docs:
+#   collections:
+#     connectors:
+#       name: Connectors
+#     protocols:
+#       name: Protocols
