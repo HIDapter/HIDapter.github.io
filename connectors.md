@@ -4,14 +4,16 @@
     <tr>
         <th>Connector</th>
         <th>Pins</th>
-        <th>Size</th>
+        <th>Width</th>
+        <th>Height</th>
         <th>Used by</th>
     </tr>
     {% for connector in site.connectors %}
     <tr>
         <td><a href="{{ connector.url }}">{{ connector.name }}</a></td>
         <td>{{ connector.pins }}</td>
-        <td>{{ connector.width }} x {{ connector.height }}</td>
+        <td>{{ connector.width }}</td>
+        <td>{{ connector.height }}</td>
         <td>
             <ul>
                 {{% assign protocols = site.collections.protocols | where_exp:"protocol", "protocol.connector == connector.name" %}}
