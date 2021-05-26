@@ -2,13 +2,10 @@
 title: NES
 connector: nes
 voltage: TODO
+parent: Protocols
 ---
 
-# NES
-
-name={{ page.name }}
-
-title={{ page.title }}
+# {{ page.title }}
 
 ## Pins
 

@@ -10,7 +10,7 @@
     </tr>
     {% for connector in site.connectors %}
     <tr>
-        <td><a href="{{ connector.url }}">{{ connector.name }}</a></td>
+        <td><a href="{{ connector.url }}">{{ connector.title }}</a></td>
         <td>{{ connector.pins }}</td>
         <td>{{ connector.width }}</td>
         <td>{{ connector.height }}</td>
@@ -18,7 +18,7 @@
             <ul>
                 {{% assign protocols = site.collections.protocols | where_exp:"protocol", "protocol.connector == connector.name" %}}
                 {% for protocol in protocols %}
-                <li><a href="{{ protocol.url }}">{{ protocol.name }}</a></li>
+                <li><a href="{{ protocol.url }}">{{ protocol.title }}</a></li>
                 {% endfor %}
             </ul>
         </td>

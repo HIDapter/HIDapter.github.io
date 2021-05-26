@@ -1,10 +1,10 @@
 ---
-name: SNES
+title: SNES
 connector: snes
 voltage: 5V
 ---
 
-# {{ page.name }}
+# {{ page.title }}
 
 ## Pins
 

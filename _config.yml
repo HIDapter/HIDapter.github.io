@@ -10,9 +10,10 @@ remote_theme: pmarsceill/just-the-docs
 
 defaults:
   - scope:
-      path: ""
+      path: "_connectors"
     values:
       layout: default
+      
 
 just_the_docs:
   collections:

@@ -1,10 +1,10 @@
 ---
-name: Playstation
+title: Playstation
 connector: playstation
 voltage: 3.6V + 7.6V?
 ---
 
-# {{ page.name }}
+# {{ page.title }}
 
 ## Pins
 

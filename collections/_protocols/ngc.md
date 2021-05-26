@@ -1,14 +1,10 @@
 ---
-name: Nintendo Gamecube
+title: Nintendo Gamecube
 connector: ngc
 voltage: 5V + 3.43V
 ---
 
-# {{ page.name }}
-
-name={{ page.name }}
-
-title={{ page.title }}
+# {{ page.title }}
 
 ## Pins
 
