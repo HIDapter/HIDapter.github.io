@@ -1,3 +1,8 @@
+---
+# title: Home
+# nav_order: 1
+permalink: /
+---
 # HIDapter
 TODO
 
@@ -9,4 +14,11 @@ protocols: {{ site.protocols.url }}
 
 site.collections.connectors: {{ site.collections.connectors.url }}
 
-site.connectors: {{ site.connectors }}
+collection: {{ collection }}
+
+collections: {{ collections }}
+
+site.collection: {{ site.collection }}
+
+site.collections: {{ site.collections }}
+

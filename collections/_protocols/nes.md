@@ -1,4 +1,5 @@
 ---
+title: NES
 connector: nes
 voltage: TODO
 ---
