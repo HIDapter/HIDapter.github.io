@@ -6,6 +6,10 @@ voltage: 5V + 3.43V
 
 # {{ page.name }}
 
+name={{ page.name }}
+
+title={{ page.title }}
+
 ## Pins
 
 |Pin|Cable color|Description|

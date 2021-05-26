@@ -7,3 +7,9 @@ collections:
     output: true
 
 remote_theme: pmarsceill/just-the-docs
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

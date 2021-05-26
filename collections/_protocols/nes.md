@@ -1,10 +1,13 @@
 ---
-name: NES
 connector: nes
 voltage: TODO
 ---
 
-# {{ page.name }}
+# NES
+
+name={{ page.name }}
+
+title={{ page.title }}
 
 ## Pins
 
