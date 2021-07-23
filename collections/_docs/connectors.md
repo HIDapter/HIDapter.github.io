@@ -1,8 +1,7 @@
 ---
-title: Connectors
-has_children: true
-has_toc: false
+permalink: "/connectors/"
 ---
+
 # Connectors
 
 <table>
@@ -13,7 +12,8 @@ has_toc: false
         <th>Height</th>
         <th>Used by</th>
     </tr>
-    {% for connector in site.connectors %}
+    {% include get_collection_sorted_docs.md collection="connectors" %}
+    {% for connector in sorted_docs %}
     <tr>
         <td><a href="{{ connector.url }}">{{ connector.title }}</a></td>
         <td>{{ connector.pins }}</td>
@@ -21,7 +21,7 @@ has_toc: false
         <td>{{ connector.height }}</td>
         <td>
             <ul>
-                {{% assign protocols = site.collections.protocols | where_exp:"protocol", "protocol.connector == connector.title" %}}
+                {% include get_collection_doc.md collection="protocols" id="db9" %}
                 {% for protocol in protocols %}
                 <li><a href="{{ protocol.url }}">{{ protocol.title }}</a></li>
                 {% endfor %}

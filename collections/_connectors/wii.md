@@ -1,9 +1,8 @@
 ---
-title: Wii
 pins: 6
 ---
 
-# {{ page.title }}
+# Nintendo Wii
 
 ## Description
 

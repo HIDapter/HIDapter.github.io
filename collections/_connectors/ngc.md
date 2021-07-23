@@ -1,9 +1,8 @@
 ---
-title: Nintendo Gamecube
 pins: 7
 ---
 
-# {{ page.title }}
+# Nintendo Gamecube
 
 ## Description
 

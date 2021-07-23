@@ -1,9 +1,8 @@
 ---
-title: DB9
 pins: 9
 ---
 
-# {{ page.title }}
+# DB9
 
 ## Description
 

@@ -1,12 +1,11 @@
 ---
-title: Playstation
 connector: playstation
 voltage: 3.6V + 7.6V?
 ---
 
-# {{ page.title }}
+# PlayStation
 
-## Pins
+## Signals
 
 ### PS1
 
@@ -38,7 +37,7 @@ voltage: 3.6V + 7.6V?
 8. White – Unknown
 9. Green – Acknowledge: This normally high line drops low about 12us after each byte for half a clock cycle, but not after the last bit in a set. This is a open collector output and requires a pull-up resistor (1 to 10k, maybe more). playstation.txt says that the playstation will consider the controller missing if the ack signal (> 2us) doesn’t come within 100us.
 
-## Protocol
+## Description
 
 ## Reference
 - https://www.raphnet.net/electronique/psx_adaptor/Playstation.txt

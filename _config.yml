@@ -1,33 +1,64 @@
+title: HIDapter
+
+titles_from_headings:
+  collections: true
+
+# remote_theme: pmarsceill/just-the-docs
+remote_theme: pdmosses/just-the-docs@collections-nav
+# remote_theme: pdmosses/just-the-docs@pages-and-collections
+# remote_theme: pdmosses/just-the-docs@pages-and-folded-collections
+# remote_theme: pdmosses/just-the-docs@combination
+# remote_theme: pdmosses/just-the-docs@combination-rec-nav
+# remote_theme: pdmosses/just-the-docs@rec-nav-2
+color_scheme: dark
+
+# Disabling search for now, it doesn't work properly
+search_enabled: false
+
 collections_dir: collections
 
 collections:
+  docs:
+    permalink: "/:collection/:path/"
+    output: true
   connectors:
+    permalink: "/:collection/:path/"
     output: true
   protocols:
+    permalink: "/:collection/:path/"
     output: true
-
-remote_theme: pmarsceill/just-the-docs
+  impl:
+    permalink: "/:collection/:path/"
+    output: true
+  posts:
+    permalink: "/:collection/:path/"
+    output: true
 
 defaults:
   - scope:
-      path: "/collections/_connectors/*"
+      path: ""
     values:
       layout: default
+  - scope:
+      type: connectors
+    values:
       parent: Connectors
       pins: TODO
       width: TODO
       height: TODO
   - scope:
-      path: "/collections/_protocols/*"
+      type: protocols
     values:
-      layout: default
       parent: Protocols
       connector: TODO
       voltage: TODO
 
-# just_the_docs:
-#   collections:
-#     connectors:
-#       name: Connectors
-#     protocols:
-#       name: Protocols
+just_the_docs:
+  collections:
+    docs:
+      name: Documentation
+    impl:
+      name: Implementation
+    posts:
+      name: News
+      # nav_exclude: true # we only want to include posts in the search, not in the documentation navigation

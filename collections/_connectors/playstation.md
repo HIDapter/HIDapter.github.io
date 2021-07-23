@@ -1,9 +1,8 @@
 ---
-title: Playstation
 pins: 9
 ---
 
-# {{ page.title }}
+# PlayStation
 
 ## Description
 

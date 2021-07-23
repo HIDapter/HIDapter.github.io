@@ -1,9 +1,8 @@
 ---
-title: SNES
 pins: 7
 ---
 
-# {{ page.title }}
+# SNES
 
 ## Description
 

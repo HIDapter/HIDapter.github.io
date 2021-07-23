@@ -1,12 +1,11 @@
 ---
-title: SNES
 connector: snes
 voltage: 5V
 ---
 
-# {{ page.title }}
+# SNES
 
-## Pins
+## Signals
 
 |Pin|Cable color|Description|
 |-|------|-|
@@ -18,8 +17,8 @@ voltage: 5V
 |6|-     |?|
 |7|Brown |Ground|
 
-## Protocol
+## Description
 
 ## Reference
-- [](http://www.repairfaq.org/REPAIR/F_SNES.html)
-- [](https://github.com/rafalgrodzinski/gamepad-adapter)
+- [http://www.repairfaq.org/REPAIR/F_SNES.html](http://www.repairfaq.org/REPAIR/F_SNES.html)
+- [https://github.com/rafalgrodzinski/gamepad-adapter](https://github.com/rafalgrodzinski/gamepad-adapter)

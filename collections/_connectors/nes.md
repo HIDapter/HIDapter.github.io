@@ -1,8 +1,8 @@
 ---
-title: NES
+pins: 7
 ---
 
-# {{ page.title }}
+# NES
 
 ## Description
 

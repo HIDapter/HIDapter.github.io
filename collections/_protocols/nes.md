@@ -1,12 +1,12 @@
 ---
-title: NES
 connector: nes
+voltage: 5V
 ---
 
-# {{ page.title }}
+# NES
 
-## Pins
+## Signals
 
-## Protocol
+## Description
 
 ## Reference

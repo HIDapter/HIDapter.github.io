@@ -1,12 +1,11 @@
 ---
-title: Nintendo Gamecube
 connector: ngc
 voltage: 5V + 3.43V
 ---
 
-# {{ page.title }}
+# Nintendo Gamecube
 
-## Pins
+## Signals
 
 |Pin|Cable color|Description|
 |-|------|-|
@@ -18,7 +17,8 @@ voltage: 5V + 3.43V
 |6|Blue  |3.43V logic supply.
 |7|Black |Cable shielding / ground. Usually common ground with pin 3.
 
-## Protocol
+## Description
 
 ## Reference
-- http://www.int03.co.uk/crema/hardware/gamecube/gc-control.htm
+- [http://www.int03.co.uk/crema/hardware/gamecube/gc-control.htm](http://www.int03.co.uk/crema/hardware/gamecube/gc-control.htm)
+- [http://ezhid.sourceforge.net/gcpad.html](http://ezhid.sourceforge.net/gcpad.html)
